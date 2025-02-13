@@ -1,0 +1,37 @@
+{
+  "name": "next-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 5555",
+    "build": "next build",
+    "start": "next start -p 5555",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.5",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "framer-motion": "^11.13.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.3",
+    "next": "15.0.1",
+    "next-themes": "^0.4.3",
+    "playwright": "^1.48.2",
+    "puppeteer": "^23.6.0",
+    "react": "19.0.0-rc-69d4b800-20241021",
+    "react-dom": "19.0.0-rc-69d4b800-20241021",
+    "react-icons": "^5.3.0",
+    "react-toastify": "^10.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
