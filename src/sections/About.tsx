@@ -6,15 +6,15 @@ const About = () => {
     <div className="w-full h-full flex justify-center items-center">
       <div className="max-w-lg p-12 flex flex-col justify-center items-center gap-4 text-center">
         <h1 className="text-4xl font-semibold">Profile Scraper</h1>
-        <p className="text-xl">Powered Profile Scraper by @Victor</p>
+        <p className="text-xl">Powered Profile Scraper by @skytech2510</p>
         <p className="text-lg">
           If you have any question about this, please contact{" "}
-          <strong>@doyourbest</strong> in discord
+          <strong>@johnveetle0914</strong> in discord
         </p>
         <Link
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/doyourbest96/next-scraper"
+          href="https://github.com/skytech2510/Next-Scraper"
         >
           <Image
             src="/cutestar.png"
