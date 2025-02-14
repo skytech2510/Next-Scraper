@@ -137,16 +137,16 @@ export async function POST(request: Request) {
           description:
             mainContent.find(".css-bcaew0 b").first().text().trim() !== ""
               ? mainContent
-                  .find(
-                    `span.css-19yrmx8:contains("${mainContent
-                      .find(".css-bcaew0 b")
-                      .first()
-                      .text()
-                      .trim()}")`
-                  )
-                  .next(".css-1tp1ukf")
-                  .text()
-                  .trim()
+                .find(
+                  `span.css-19yrmx8:contains("${mainContent
+                    .find(".css-bcaew0 b")
+                    .first()
+                    .text()
+                    .trim()}")`
+                )
+                .next(".css-1tp1ukf")
+                .text()
+                .trim()
               : mainContent.find("div.css-1hla380").text().trim(),
           progress: mainContent
             .find('span.css-19yrmx8:contains("Progress")')
